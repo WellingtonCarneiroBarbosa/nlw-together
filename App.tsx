@@ -1,4 +1,5 @@
-import React from 'react';
+import React, { Fragment } from 'react';
+import { StatusBar } from 'react-native';
 import { useFonts } from 'expo-font';
 import AppLoading from 'expo-app-loading';
 import { Inter_400Regular, Inter_500Medium } from '@expo-google-fonts/inter';
@@ -19,6 +20,14 @@ export default function App() {
   }
 
   return (
-    <SignIn />
+    <Fragment>
+      <StatusBar 
+            barStyle="light-content"
+            backgroundColor="transparent"
+            translucent
+          />
+
+      <SignIn />
+    </Fragment>
   );
 }
