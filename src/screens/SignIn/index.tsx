@@ -7,6 +7,7 @@ import {
 } from 'react-native';
 
 import IllustrationImg from '../../assets/illustration.png';
+
 import { styles } from './styles';
 
 import { ButtonIcon } from '../../components/ButtonIcon';
