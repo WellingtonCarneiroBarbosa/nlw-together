@@ -11,7 +11,7 @@ import { styles } from './styles';
 
 import { ButtonIcon } from '../../components/ButtonIcon';
 
-export function SignIn(){
+export function SignIn() {
   return(
     <View style={styles.container}>
 
