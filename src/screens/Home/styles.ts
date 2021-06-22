@@ -9,7 +9,7 @@ export const styles = StyleSheet.create({
   
   header: {
     width: '100%',
-    paddingHorizontal: 24, // Padding intern margin extern spaces
+    paddingHorizontal: 10, // Padding intern margin extern spaces
     flexDirection: 'row',
     justifyContent: 'space-between' ,
     marginTop: getStatusBarHeight() + 26, // Fix for iphones statusbar

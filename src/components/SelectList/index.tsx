@@ -20,7 +20,7 @@ export function SelectList({
             style={styles.container}
             horizontal
             showsHorizontalScrollIndicator={false}
-            contentContainerStyle={{ paddingRight: 40 }}
+            contentContainerStyle={{ paddingRight: 10 }}
         >
             {
                 categories.map(category => (
